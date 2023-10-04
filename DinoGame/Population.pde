@@ -70,7 +70,7 @@ class Population {
       bestScore = tempBest.score;
       bestPlayer = tempBest.cloneForReplay();
     }else{
-      println("La generación no mejoró la puntuación de la generación anterior")
+      println("La generación no mejoró la puntuación de la generación anterior");
     }
   }
 
