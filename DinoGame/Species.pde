@@ -113,7 +113,6 @@ class Species {
 
     players = (ArrayList)temp.clone();
     if (players.size() == 0) {
-      print("fucking"); 
       staleness = 200;
       return;
     }
